@@ -9,24 +9,21 @@
     <title>The ArtBox</title>
 </head>
 <body>
-<header>
-    <a href="index.html"><img src="img/logo.png" alt="Logo Artbox" id="logo"></a>
-    <nav>
-        <ul>
-            <li><a href="index.html">Accueil</a></li>
-        </ul>
-    </nav>
-</header>
+
+<! le header du site>
+
+<?php require_once(__DIR__ . '/header.php');?>
+
 <main>
     <article id="detail-oeuvre">
         <div id="img-oeuvre">
-            <img src="img/pawel-czerwinski.png" alt="Chromatics">
+            <img src="img/pawel-czerwinski-3.png" alt="Aashaaheen Baadal">
         </div>
         <div id="contenu-oeuvre">
-            <h1>Chromatics</h1>
-            <p class="description">Jean-Michel Delatronchette</p>
+            <h1>Aashaaheen Baadal</h1>
+            <p class="description">Anaisha Devi</p>
             <p class="description-complete">
-                Vivamus commodo non libero at hendrerit. In lacinia dui sit amet pellentesque iaculis. Donec at ultricies sem porttitor.
+                Sur cette oeuvre conceptuelle à la fois organique, minérale et liquide, Anaisha Devi nous transporte dans un nuage noir envoûtant. Un sombre tableau qui, par son verni éclatant, rayonne tel un marbre poli. Une oeuvre à la cohérence transcendantale, exécutée à la perfection
             </p>
         </div>
     </article>
